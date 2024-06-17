@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parsers.Protocol", "Parsers
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parsers.ProtocolTests", "Parsers.ProtocolTests\Parsers.ProtocolTests.csproj", "{07389950-934A-42B9-AAF1-6B72820C9548}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parsers.DIS.Macro", "Parsers.DIS.Macro\Parsers.DIS.Macro.csproj", "{793EAD3A-0F64-442C-B036-B345D953E803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parsers.DIS.MacroTests", "Parsers.DIS.MacroTests\Parsers.DIS.MacroTests.csproj", "{E4E70020-A911-4A33-847B-E29F68B699C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{07389950-934A-42B9-AAF1-6B72820C9548}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07389950-934A-42B9-AAF1-6B72820C9548}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07389950-934A-42B9-AAF1-6B72820C9548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793EAD3A-0F64-442C-B036-B345D953E803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793EAD3A-0F64-442C-B036-B345D953E803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793EAD3A-0F64-442C-B036-B345D953E803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793EAD3A-0F64-442C-B036-B345D953E803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4E70020-A911-4A33-847B-E29F68B699C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E70020-A911-4A33-847B-E29F68B699C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E70020-A911-4A33-847B-E29F68B699C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E70020-A911-4A33-847B-E29F68B699C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
